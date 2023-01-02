@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 1</title>
-    <link rel = "stylesheet" href = style_aula1.css>
+    <link rel = "stylesheet" href = "styles_aulas/style_aula1.css">
 </head>
 <body>
     <h1>Testando PHP....</h1>
     <section>
     <?php
         // Criando variaveis para testar
-        $idade = 15;
+        $idade = 21;
         $nome = "Pedro";
         //echo "<h2>Olá Mundo!</h2>"; // é possivel usar formatação html dentro de um echo
         //printf("<h2>Meu nome é %s e tenho %d anos.</h2>", $nome, $idade); // É possivel fazer uma string formatada com stringf
