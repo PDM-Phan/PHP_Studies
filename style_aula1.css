@@ -1,0 +1,25 @@
+section {
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+h1 {
+    /*estilo especifico para o h1(titulo)*/
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px;
+    text-align: center;
+}
+
+h2 {
+    /*estilo especifico para o h2(titulo)*/
+    color: rgb(64, 121, 143);
+    /*text-shadow: 2px 2px 2px #458c9743;*/
+    text-align: center;
+    
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px;
+}
