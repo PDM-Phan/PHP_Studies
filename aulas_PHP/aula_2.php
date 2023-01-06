@@ -21,7 +21,6 @@
             <input type="submit" value="*" name="operacao">
             <input type="submit" value="/" name="operacao">
         </form>
-        <br>
     </section>
     <section>
         <?php 
