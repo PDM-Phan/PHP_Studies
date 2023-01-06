@@ -42,3 +42,8 @@ a {
     font-size: 20px;
     color: rgb(59, 170, 221);
 }
+
+a:hover {
+    font-size: 25px;
+    color: rgb(12, 99, 91);
+}
