@@ -9,6 +9,7 @@
 </head>
 <body>
     <u><h1>Cauculadora Simples PHP</h1></u>
+    <fieldset><legend><h2>Cauculadora</h2></legend>
     <section>
         <form action="" method="post">
             <br>
@@ -46,5 +47,6 @@
             }
         ?>
     </section>
+    </fieldset>
 </body>
 </html>
