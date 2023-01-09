@@ -9,9 +9,9 @@
 </head>
 <body>
     <u><h1>Cauculadora Simples PHP</h1></u>
-    <fieldset><legend><h2>Cauculadora</h2></legend>
     <section>
         <form action="" method="post">
+            <fieldset><legend><h2>Cauculadora</h2></legend>
             <br>
             <label for="number1">Primeiro número:</label>
             <input type = "number" name = "number1" id = "number1" min = 0 max = 9999></input><br><br>
@@ -21,6 +21,7 @@
             <input type="submit" value="-" name="operacao">
             <input type="submit" value="*" name="operacao">
             <input type="submit" value="/" name="operacao">
+            </fieldset>
         </form>
     </section>
     <section>
@@ -32,21 +33,25 @@
                 caucula($n1, $n2, $operacao);
             }
             function caucula($number1, $number2, $op) {
+                $res=0;
                 if($op == "+") {
-                    echo "resultado => ".($number1 + $number2);
+                    $res = $number1 + $number2;
+                    echo "<h2>resultado => <u>$res</u></h2>";
                 }
                 else if($op == "-") {
-                    echo "resultado => ".($number1 - $number2);
+                    $res = $number1 - $number2;
+                    echo "<h2>resultado => <u>$res</u></h2>";
                 }
                 else if($op == "*") {
-                    echo "resultado => ".($number1 * $number2);
+                    $res = $number1 * $number2;
+                    echo "<h2>resultado => <u>$res</u></h2>";
                 }
                 else {
-                    echo "resultado => ".($number1 / $number2);
+                    $res = $number1 / $number2;
+                    echo "<h2>resultado => <u>$res</u></h2>";
                 }
             }
         ?>
     </section>
-    </fieldset>
 </body>
 </html>
