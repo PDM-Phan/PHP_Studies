@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(134, 128, 128);
+}
+
+fieldset {
+    background-color: beige;
+    box-shadow: 1px 1px 1px beige;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#legenda {
+    font: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
