@@ -1,0 +1,33 @@
+#areaM {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#legenda {
+    font-size: 40px;
+    font-style: initial;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#media {
+    font-style: initial;
+    color: white;
+    width: 120px;
+    background-color: rgb(29, 23, 49);
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+}
+
+a {
+    font-style: initial;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(29, 23, 49);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: auto;
+}
