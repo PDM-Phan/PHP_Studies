@@ -20,14 +20,20 @@
     <link rel="stylesheet" href="styles_aulas/style_aula4.css">
     <title>Situação Média</title>
     <style>
-
+        #situacao {
+            text-align:center;
+            color: rgb(85, 4, 4);
+            font-size: 30px
+        }
     </style>
 </head>
 <body>
-    <section id="situacao">
-        A média entre <?php echo $nota1; ?> e <?php echo $nota2; ?> será <?php echo $media; ?><br/>
-        A situação do aluno: <?php echo $situacao; ?>
-    </section>
+    <div id="situacao" name="situacao">
+        <?php
+            echo "A média entre <u>$nota1</u> e a <u>$nota2</u> será <u>$media</u>.<br/>";
+            echo "Situação do aluno: <u>$situacao</u>.";
+        ?>
+    </div>
     <div>
         <a href="aula_4.html">Voltar</a>
     </div>
