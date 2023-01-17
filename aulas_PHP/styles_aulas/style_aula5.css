@@ -1,0 +1,19 @@
+a {
+    font-style: initial;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(29, 23, 49);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: auto;
+}
+
+#contador {
+    font-style: initial;
+    color: white;
+    width: 120px;
+    background-color: rgb(29, 23, 49);
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    margin-left: 15px;
+}
