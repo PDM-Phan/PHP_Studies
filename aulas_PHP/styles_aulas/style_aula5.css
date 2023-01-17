@@ -17,3 +17,21 @@ a {
     padding: 10px;
     margin-left: 15px;
 }
+
+section {
+    width: auto;
+    margin: auto;
+    font-style: italic;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+#paginaC {
+    background-color: rgb(32, 30, 30);
+}
+
+h1 {
+    font-style: initial;
+}
