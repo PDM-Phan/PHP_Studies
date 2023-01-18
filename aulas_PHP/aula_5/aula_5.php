@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles_aulas/style_aula5.css">
-    <title>Contador Personalizado</title>
+    <title>Contador Personalizado PHP</title>
 </head>
 <body id="paginaC">
     <section>
