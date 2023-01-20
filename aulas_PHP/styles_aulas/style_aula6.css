@@ -1,0 +1,39 @@
+a {
+    font-style: initial;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(29, 23, 49);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: auto;
+}
+
+fieldset {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#primo {
+    font-style: initial;
+    color: white;
+    width: 100px;
+    background-color: rgb(29, 23, 49);
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+h2 {
+    font-style: initial;
+    font-size: 20px;
+}
+
+#p {
+    color: darkred;
+    font-size: 20px;
+}
+
+#resultado {
+    font-size: 20px;
+}
