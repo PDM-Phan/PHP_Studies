@@ -14,13 +14,3 @@ section {
 body {
     background-color: rgb(167, 167, 162);
 }
-
-a {
-    font-style: initial;
-    display: inline-block;
-    padding: 10px;
-    background-color: rgb(29, 23, 49);
-    color: white;
-    box-shadow: 2px 2px 5px black;
-    margin: auto;
-}

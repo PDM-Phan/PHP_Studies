@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 1</title>
     <link rel = "stylesheet" href = "styles_aulas/style_aula1.css">
+    <style>
+        a {
+            font-style: initial;
+            display: inline-block;
+            padding: 10px;
+            background-color: rgb(29, 23, 49);
+            color: white;
+            box-shadow: 2px 2px 5px black;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando PHP....</h1>
