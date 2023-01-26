@@ -53,5 +53,6 @@
             }
         ?>
     </section>
+    <div><a href="..\index.html">Voltar</a></div>
 </body>
 </html>

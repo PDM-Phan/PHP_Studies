@@ -49,5 +49,6 @@
         ?>
         </h3>
     </div>
+    <div><a href="..\index.html">Voltar</a></div>
 </body>
 </html>

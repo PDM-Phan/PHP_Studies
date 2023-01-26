@@ -13,5 +13,6 @@
         <input type="number" name="nump" id="nump" min=0 max=9999 required>
         <input type="submit" value="Primo?" id="primo">
     </form>
+    <div><a href="..\..\index.html">Voltar</a></div>
 </body>
 </html>
