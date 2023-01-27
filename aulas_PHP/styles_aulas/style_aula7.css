@@ -1,6 +1,25 @@
 h1 {
-    text-align: center;
+    /*text-align: center;*/
     font-style: initial;
     color: rgb(75, 73, 73);
     text-shadow: 1px 1px 1px black;
+}
+
+a {
+    font-style: initial;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(29, 23, 49);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: auto;
+}
+
+fieldset {
+    width: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
 }
