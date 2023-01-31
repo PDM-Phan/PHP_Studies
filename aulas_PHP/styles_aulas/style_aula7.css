@@ -5,7 +5,7 @@ h1 {
     text-shadow: 1px 1px 1px black;
 }
 
-a {
+.botao {
     font-style: initial;
     display: inline-block;
     padding: 10px;
@@ -13,13 +13,41 @@ a {
     color: white;
     box-shadow: 2px 2px 5px black;
     margin: auto;
+    margin-top: 10px;
 }
 
 fieldset {
     width: auto;
-    text-align: center;
+    text-align: left;
     margin: auto;
     margin-top: 100px;
     padding: 10px;
     border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px black;
+}
+
+legend {
+    text-align: right;
+    font-size: 30px;
+    font-style: initial;
+    color: rgb(75, 73, 73);
+    text-shadow: 1px 1px 1px black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+/* Usado para colocar itens um do lado do outro com HTML */
+.container {
+    align-self: center;
+    width: auto;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+body {
+    background-color: rgb(20, 33, 44);
 }

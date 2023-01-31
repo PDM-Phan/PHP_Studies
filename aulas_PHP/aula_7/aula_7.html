@@ -8,11 +8,35 @@
     <title>Aula 7</title>
 </head>
 <body>
-    <fieldset>
-        <h1><u>Ainda em desenvolvimento...</u></h1>
-        <p>Praticando rotinas com PHP...<br/>Organizando as ideias</p>
-    </fieldset>
+    <form action="aula_7.php" method="post">
+        <fieldset><legend>Cauculadora de multiplos valores</legend>
+            <div class="container">
+                <div class="inputs">
+                    <label for="num1">Numero 1:</label>
+                    <input type="number" name="num1" id="num1" max="9999" required><br/>
+                    <label for="num2">Numero 2:</label>
+                    <input type="number" name="num2" id="num2" max="9999" required><br/>
+                    <label for="num3">Numero 3:</label>
+                    <input type="number" name="num3" id="num3" max="9999"><br/>
+                    <label for="num4">Numero 4:</label>
+                    <input type="number" name="num4" id="num4" max="9999"><br/>
+                    <label for="num5">Numero 5:</label>
+                    <input type="number" name="num5" id="num5" max="9999"><br/><br/>
+                </div>
+                <div class="acoes">
+                    <select name="acoes" id="acoes">
+                        <option value="+" selected>Soma</option>
+                        <option value="-">Subtração</option>
+                        <option value="/">Divisão</option>
+                        <option value="*">Multiplicação</option>
+                        <option value="?">Média</option>
+                    </select><br/>
+                    <input type="submit" value="Caucular" class="botao">
+                </div>
+            </div>
+        </fieldset>
+    </form>
     <br/><br/>
-    <div><a href="..\..\index.html">Voltar</a></div>
+    <div><a href="..\..\index.html" class="botao">Voltar</a></div>
 </body>
 </html>
