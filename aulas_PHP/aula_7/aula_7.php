@@ -47,6 +47,7 @@
                     }
                     break;
                 case "/":
+                    // Preciso criar uma nova forma de divisao para essa parte em especifica
                     while (is_numeric($new_array[$loop])) {
                         $loop++;
                         $res = $num1 / $num2;
