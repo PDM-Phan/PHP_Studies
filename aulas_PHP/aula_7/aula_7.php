@@ -56,6 +56,7 @@
                     break;
                 default:
                     while (is_numeric($new_array[$loop])){
+                        $loop++;
                         $res = $num1 + $num2;
                         $num1 = $res;
                         $num2 = $new_array[$loop];
