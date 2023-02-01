@@ -51,3 +51,8 @@ legend {
 body {
     background-color: rgb(20, 33, 44);
 }
+
+span {
+    color: aliceblue;
+    font-size: 40px;
+}
