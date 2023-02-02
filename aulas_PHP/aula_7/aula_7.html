@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="../styles_aulas/style_aula7.css">
     <title>Aula 7</title>
 </head>
-<body>
+<body>  
     <form action="aula_7.php" method="post">
+     
         <fieldset><legend>Cauculadora de multiplos valores</legend>
             <div class="container">
                 <div class="inputs">
                     <label for="num1">Numero 1:</label>
-                    <input type="number" name="num1" id="num1" max="9999" required><br/>
+                    <input type="number" name="num1" id="num1" max="9999"><br/>
                     <label for="num2">Numero 2:</label>
-                    <input type="number" name="num2" id="num2" max="9999" required><br/>
+                    <input type="number" name="num2" id="num2" max="9999"><br/>
                     <label for="num3">Numero 3:</label>
                     <input type="number" name="num3" id="num3" max="9999"><br/>
                     <label for="num4">Numero 4:</label>
@@ -31,12 +32,14 @@
                         <option value="*">Multiplicação</option>
                         <option value="?">Média</option>
                     </select><br/>
-                    <input type="submit" value="Calcular" class="botao">
+                    <input type="submit" value="Calcular" class="botao" onclick="verificar()">
+                    
                 </div>
             </div>
         </fieldset>
     </form>
     <br/><br/>
     <div><a href="..\..\index.html" class="botao">Voltar</a></div>
+    <script src="aula_7.js"></script>
 </body>
 </html>
