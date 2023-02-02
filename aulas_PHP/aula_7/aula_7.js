@@ -17,8 +17,9 @@ function verificar() {
         }
     }
 
-     if (v_valido < 2) {
+    if (v_valido < 2) {
         window.alert("[ERRO] Preencha pelo menos 2 campos.");
-        window.location.assign("http://localhost/PHP_Studies/aulas_PHP/aula_7/aula_7.html");
-     }
+        window.location.href = "http://localhost/PHP_Studies/aulas_PHP/aula_7/aula_7.html";
+        return false;
+    }
 }
