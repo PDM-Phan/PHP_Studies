@@ -47,12 +47,19 @@
                     }
                     break;
                 case "/":
-                    // Preciso criar uma nova forma de divisao para essa parte em especifica
-                    while (is_numeric($new_array[$loop])) {
-                        $loop++;
+                    if (sizeof($new_array)>3) { // Verificando se a divisão terá mais de 2 números
+                        $ultimo = $new_array[count($new_array)-2]; // Pega o ultimo número dado
+                        unset($new_array[count($new_array)-2]); // Retira esse número da lista para não atrapalhar o calculo
+                        $div_array = array_values($new_array); // Cria uma nova lista exclusiva para essa operação
+                        while (is_numeric($div_array[$loop])) { // Irá ficar somando até não haver mais números disponíveis
+                            $loop++;
+                            $res = $num1 + $num2;
+                            $num1 = $res;
+                            $num2 = $div_array[$loop];
+                        }
+                        $res /= $ultimo;
+                    } else {
                         $res = $num1 / $num2;
-                        $num1 = $res;
-                        $num2 = $new_array[$loop];
                     }
                     break;
                 default:

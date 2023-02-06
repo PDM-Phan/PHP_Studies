@@ -48,6 +48,15 @@ legend {
     column-gap: 5px;
 }
 
+.container2 { /*Container 2 serve para apresentar uma observação quando a opçao divisao for selecionada*/
+    padding-top: 10px;
+    align-self: center;
+    width: auto;
+    display: flex;
+    align-items: center; 
+    column-gap: 5px;
+}
+
 body {
     background-color: rgb(20, 33, 44);
 }
